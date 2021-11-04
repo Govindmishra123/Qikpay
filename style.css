@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+#container{
+    display: flex;
+    /* background-repeat: no-repeat; */
+
+}
+.left{
+    background-color: #ECF2F7;
+    top: 0px;
+    left: 0px;
+    width: 50vw;
+    height: 100vh;
+
+}
+.left img{
+  
+    margin-top: 50px;
+    margin-left: 134px;
+    width: 400px;
+    height: 395px;
+    background-repeat: no-repeat;  
+}
+.left span{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: bold;
+}
+.left .span2{
+    text-align: center;
+    /* font-family: 'Lato'; */
+    /* font-weight: regular; */
+    /* font-size: 10px; */
+}
+.right{
+    background-color: #FFFFFF;
+    
+}
+.right img{
+    width: 130px;
+    height: 80px;
+    margin-left: 550px;
+    top: 0;
+}
+.right .form{
+    /* align-items: center;
+    text-align: center;
+    display: inline-block; */
+    margin-left: 150px;
+    font-family: 'Lato';
+}
+.right .form .buttonSignup{
+    width: 350px;
+    height: 30px;
+    /* margin-left: 70px; */
+    margin-top: 30px;
+    border: 0;
+    color: #FFFFFF;
+    background: var(--unnamed-color-00aeef) 0% 0% no-repeat padding-box;
+background: #00AEEF 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+.right .form .buttonLogin{
+    width: 350px;
+    height: 30px;
+    display: block;
+    border: 0;
+    color: #00AEEF;
+    /* margin-left: 40px; */
+    margin-top: 15px;
+}
+.right .form .inputdata{
+    width: 350px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: 0;
+    border-radius: 4px;
+}
+.right .form .inputname{
+    width: 200px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: 0;
+    border-radius: 4px;
+}
+.right .form .name{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+}
+.right .form .bottom{
+    margin-bottom: 0;   
+    align-items: center;
+    text-align: center;
+}
