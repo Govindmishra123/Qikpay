@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+}
 #container {
     display: flex;
     /* background-repeat: no-repeat; */
@@ -6,7 +9,7 @@
 
 .left {
     background-color: #ECF2F7;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,75 +43,137 @@
     color: #455360;
 }
 
-.right {
-    background-color: #FFFFFF;
-    width: 50vw;
-    height: 100vh;
+.right{
+    width: 50%;
 }
 
-.right img {
-    width: 130px;
-    height: 80px;
-    margin-left: 550px;
-    top: 0;
+.right img{
+    width: 157px;
+    height: 90px;
+    margin-left: 500px;
 }
 
-.right .form {
-    /* align-items: center;
-    text-align: center;
-    display: inline-block; */
-    margin-left: 150px;
-    font-family: 'Lato';
+.form{
+    width: 497px;
+    height: auto;
+    margin-left: 120px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
-.right .form .buttonSignup {
-    width: 350px;
-    height: 30px;
-    /* margin-left: 70px; */
-    margin-top: 30px;
-    border: 0;
-    color: #FFFFFF;
-    background: var(--unnamed-color-00aeef) 0% 0% no-repeat padding-box;
-    background: #00AEEF 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
+.form h1{
+    font-family: 'lato';
+    font-weight: bold;
+    font-size: 36px;
+    width: 123px;
+    height: 44px;
 }
 
-.right .form .buttonLogin {
-    width: 350px;
-    height: 30px;
-    display: block;
-    border: 0;
-    color: #00AEEF;
-    /* margin-left: 40px; */
+.form .para1{
+    width: 221px;
+    height: 24px;
+    font-family: 'lato';
     margin-top: 15px;
+    margin-bottom: 10px;
+    color: #455360;
 }
 
-.right .form .inputdata {
-    width: 350px;
-    height: 30px;
-    background-color: #F0F0F0;
+.form .user__name__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 50px; */
+}
+
+.user__name__section p{
+    font-family: 'lato';
+    font-size: 12px;
+    color: #292731;
+    margin-bottom: 10px;
+}
+
+.user__name__section .inputname{
+    width: 150px;
+    height: 28px;
     border: 0;
     border-radius: 4px;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
 }
 
-.right .form .inputname {
-    width: 200px;
-    height: 30px;
-    background-color: #F0F0F0;
+.form .phone{
+    font-family: 'lato';
+    font-size: 12px;
+    color: #292731;
+    margin-bottom: 10px;
+}
+
+.form .inputdata__phone{
+    width: 400px;
+    height: 28px;
     border: 0;
     border-radius: 4px;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
 }
 
-.right .form .name {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    display: flex;
-    flex-direction: row;
+.form .email{
+    font-family: 'lato';
+    font-size: 12px;
+    color: #292731;
+    margin-bottom: 10px;
 }
 
-.right .form .bottom {
-    margin-bottom: 0;
-    align-items: center;
-    text-align: center;
+.form .inputdata__email{
+    width: 400px;
+    height: 28px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
+}
+
+.form .password{
+    font-family: 'lato';
+    font-size: 12px;
+    color: #292731;
+    margin-bottom: 10px;
+}
+
+.form .inputdata__password{
+    width: 400px;
+    height: 28px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
+}
+
+.form .buttonSignup{
+    width: 400px;
+    height: 28px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #00AEEF;
+    font-family: 'lato';
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.form .buttonLogin{
+    width: 400px;
+    height: 28px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #00AEEF; 
+    font-family: 'lato';
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.bottom{
+    /* text-align: inherit; */
+    color: #292731;
+    margin-top: 55px;
+    margin-left: 150px;
 }
